@@ -1,0 +1,124 @@
+body, h1, h2, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+#hello {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#hello li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#hello li a {
+  color: #b6b4b4;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+#hello li a:hover {
+  opacity: 0.7;
+}
+#hello li a:active{
+  opacity: 0.5;
+}
+main {
+  padding: 20px;
+}
+
+.sp {
+  margin-top: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table th{
+  border: 1px solid #b6b4b4;
+  padding: 10px;
+}
+
+.table th {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.video,
+.audio {
+  display: block;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#fed {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#fed li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#fed li a {
+  color: #b6b4b4;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+#fed li a:hover {
+  opacity: 0.7;
+}
+#fed li a:active{
+  opacity: 0.5;
+}
+#hey li{
+  list-style-image: url(images/icon.png);
+  list-style-position: outside;
+}
+#last{
+  color: #b6b4b4;
+}
+#last a{
+  color: #b6b4b4;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+#last a:hover{
+  opacity: 0.7;
+}
+#last a:active{
+  opacity: 0.5;
+}
+a{
+  cursor: pointer;
+}
+video{
+  max-width: 50%;
+}
